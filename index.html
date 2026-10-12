@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f7f0e4" />
+    <title>For My Love</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono&family=DM+Sans:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <style>.signature{display:block;width:128px;height:auto;margin:-18px 0 -25px -17px;mix-blend-mode:multiply}.memory-image{width:100%;height:100%;object-fit:cover;position:absolute;inset:0;z-index:2}.photo-two .memory-image{object-position:58% center}</style>
+  </head>
+  <body>
+    <section class="entry" id="entry" aria-label="A letter from my heart">
+      <div class="entry-sparkles" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      <p class="eyebrow">a letter from my heart</p>
+      <h1>For you, always<br>with love <span>♡</span></h1>
+      <p class="entry-subtitle">There is an honest little letter waiting inside.</p>
+      <button class="envelope" id="openLetter" type="button" aria-label="Open the letter">
+        <span class="envelope-back"></span>
+        <span class="letter-preview">For my favorite person,<br><em>please read this slowly</em></span>
+        <span class="envelope-front"></span>
+        <span class="envelope-flap"></span>
+        <span class="seal">♡</span>
+      </button>
+      <p class="tap-note">tap the envelope to open</p>
+      <p class="entry-note">No expectations—only the truth, shared gently.</p>
+    </section>
+    <audio id="ourSong" loop preload="auto"><source src="assets/audio/1012.mp3" type="audio/mpeg" /></audio>
+    <div class="grain"></div>
+    <header class="nav"><a class="brand" href="#top">for <span>you</span></a><button class="sound-toggle" type="button" aria-pressed="false">♡ sound off</button></header>
+
+    <main id="top">
+      <section class="hero section">
+        <p class="eyebrow reveal">a little corner of the internet, just for you</p>
+        <div class="hero-copy">
+          <h1 class="reveal">Even on the days<br>I miss you most,</h1>
+          <p class="hero-line reveal">loving you still feels like my favorite place to be.</p>
+        </div>
+        <a class="scroll-cue" href="#letter"><span>scroll slowly</span><i></i></a>
+        <div class="orb orb-one"></div><div class="orb orb-two"></div>
+      </section>
+
+      <section class="letter section" id="letter">
+        <p class="eyebrow reveal">01 — what I want you to know</p>
+        <article class="paper reveal">
+          <span class="paper-heart">♡</span>
+          <p>My love,</p>
+          <p>I wish I could fold up every moment I miss you and tuck it into your hands—so you would know how often you live in my thoughts. In the ordinary minutes, in the songs that find me at random, in every little thing I want to tell you first.</p>
+          <p>Distance can make a day feel longer, but it has never made my love for you smaller. You are still my soft place to land, my favorite hello, and the person I cannot wait to come home to.</p>
+          <div class="signoff">Always yours,<img class="signature" src="assets/images/signature.png" alt="Laya's signature"><span style="display:block;margin-top:12px;font-style:italic">your cute boyfriend</span></div>
+        </article>
+      </section>
+
+      <section class="memories section" id="memories">
+        <div class="section-heading reveal"><p class="eyebrow">02 — the love I still carry</p><h2>Little things,<br>big feelings.</h2></div>
+        <div class="memory-grid">
+          <article class="memory tilt reveal"><div class="photo photo-one"><img class="memory-image" src="assets/images/1.JPG" alt="Our hands together"></div><p class="caption">“You make even the most ordinary day feel worth remembering.”</p><small>our favorite kind of magic</small></article>
+          <article class="memory tilt reverse reveal"><div class="photo photo-two"><img class="memory-image" src="assets/images/2.JPG" alt="A happy moment together"></div><p class="caption">“I miss your laugh, your voice, and the way you make everything lighter.”</p><small>until I get to hold you again</small></article>
+          <article class="memory note reveal"><span class="spark">✦</span><p>Somewhere between the good mornings and good nights, you became my favorite part of every day.</p><small>a note for you</small></article>
+        </div>
+      </section>
+
+      <section class="reasons section">
+        <p class="eyebrow reveal">03 — a few reasons</p>
+        <div class="reason-list">
+          <button class="reason reveal"><span>01</span><strong>Your kindness makes the world softer.</strong><i>+</i></button>
+          <button class="reason reveal"><span>02</span><strong>You feel like both peace and excitement.</strong><i>+</i></button>
+          <button class="reason reveal"><span>03</span><strong>I get to be completely myself with you.</strong><i>+</i></button>
+          <button class="reason reveal"><span>04</span><strong>Every future I imagine is brighter with you in it.</strong><i>+</i></button>
+        </div>
+      </section>
+
+      <section class="closing section">
+        <div class="sun"></div>
+        <p class="eyebrow reveal">and until then…</p>
+        <h2 class="reveal">I’ll keep choosing you,<br>from wherever I am.</h2>
+        <p class="closing-copy reveal">This is your reminder that you are deeply loved, wildly missed, and always on my mind.</p>
+        <button class="love-button reveal" id="loveButton">open a little love <span>♡</span></button>
+        <p class="secret" id="secret" aria-live="polite">Bong Slanh O nerk o klang klang baby ♡ </p>
+      </section>
+    </main>
+    <footer>made with a whole lot of love <span>♡</span></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
